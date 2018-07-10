@@ -1,0 +1,14 @@
+C:\Users\naeemu\source\repos\TaskList\TaskList.Api.Tests\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\naeemu\source\repos\TaskList\TaskList.Api.Tests\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\naeemu\source\repos\TaskList\TaskList.Api.Tests\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\naeemu\source\repos\TaskList\TaskList.Api.Tests\bin\Debug\netcoreapp2.0\TaskList.Api.Tests.deps.json
+C:\Users\naeemu\source\repos\TaskList\TaskList.Api.Tests\bin\Debug\netcoreapp2.0\TaskList.Api.Tests.runtimeconfig.json
+C:\Users\naeemu\source\repos\TaskList\TaskList.Api.Tests\bin\Debug\netcoreapp2.0\TaskList.Api.Tests.runtimeconfig.dev.json
+C:\Users\naeemu\source\repos\TaskList\TaskList.Api.Tests\bin\Debug\netcoreapp2.0\TaskList.Api.Tests.dll
+C:\Users\naeemu\source\repos\TaskList\TaskList.Api.Tests\bin\Debug\netcoreapp2.0\TaskList.Api.Tests.pdb
+C:\Users\naeemu\source\repos\TaskList\TaskList.Api.Tests\obj\Debug\netcoreapp2.0\TaskList.Api.Tests.csprojResolveAssemblyReference.cache
+C:\Users\naeemu\source\repos\TaskList\TaskList.Api.Tests\obj\Debug\netcoreapp2.0\TaskList.Api.Tests.csproj.CoreCompileInputs.cache
+C:\Users\naeemu\source\repos\TaskList\TaskList.Api.Tests\obj\Debug\netcoreapp2.0\TaskList.Api.Tests.AssemblyInfoInputs.cache
+C:\Users\naeemu\source\repos\TaskList\TaskList.Api.Tests\obj\Debug\netcoreapp2.0\TaskList.Api.Tests.AssemblyInfo.cs
+C:\Users\naeemu\source\repos\TaskList\TaskList.Api.Tests\obj\Debug\netcoreapp2.0\TaskList.Api.Tests.dll
+C:\Users\naeemu\source\repos\TaskList\TaskList.Api.Tests\obj\Debug\netcoreapp2.0\TaskList.Api.Tests.pdb

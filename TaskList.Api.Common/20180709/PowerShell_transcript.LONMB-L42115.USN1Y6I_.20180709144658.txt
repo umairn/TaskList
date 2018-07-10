@@ -1,0 +1,118 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20180709144658
+Username: CORP\naeemu
+RunAs User: CORP\naeemu
+Machine: LONMB-L42115 (Microsoft Windows NT 10.0.14393.0)
+Host Application: C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\devenv.exe
+Process ID: 32352
+PSVersion: 5.1.14393.1944
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14393.1944
+BuildVersion: 10.0.14393.1944
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+PS>Get-ExecutionPolicy
+RemoteSigned
+PS>Import-Module 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\PROFESSIONAL\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\NUGET\Modules\NuGet\NuGet.psd1'
+PS>CommandInvocation(Set-Variable): "Set-Variable"
+>> ParameterBinding(Set-Variable): name="Name"; value="profile"
+>> ParameterBinding(Set-Variable): name="Value"; value="WindowsPowerShell\NuGet_profile.ps1"
+>> ParameterBinding(Set-Variable): name="Option"; value="None"
+PS>Set-Location 'C:\Users\naeemu\source\repos\TaskList'
+PS>$__pc_args=@(); $input|%{$__pc_args+=$_}; & 'C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.entityframeworkcore.tools\2.0.2\tools\init.ps1' $__pc_args[0] $__pc_args[1] $__pc_args[2]; Remove-Variable __pc_args -Scope 0
+PM>Set-Location 'C:\Users\naeemu\source\repos\TaskList'
+PM>Set-Location 'C:\Users\naeemu\source\repos\TaskList'
+PM>$__pc_args=@(); $input|%{$__pc_args+=$_}; & 'C:\Users\naeemu\.nuget\packages\entityframework\6.2.0\tools\init.ps1' $__pc_args[0] $__pc_args[1] $__pc_args[2] $__pc_args[3]; Remove-Variable __pc_args -Scope 0
+
+PM>Update-Package -ProjectName TaskList.Api.DataAccess
+
+PM>nuget locals all -clear
+
+**********************
+Windows PowerShell transcript start
+Start time: 20180709170133
+Username: CORP\naeemu
+RunAs User: CORP\naeemu
+Machine: LONMB-L42115 (Microsoft Windows NT 10.0.14393.0)
+Host Application: C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\devenv.exe
+Process ID: 32352
+PSVersion: 5.1.14393.1944
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14393.1944
+BuildVersion: 10.0.14393.1944
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+PS>CommandInvocation(Out-String): "Out-String"
+>> ParameterBinding(Out-String): name="InputObject"; value="The term 'nuget' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again."
+nuget : The term 'nuget' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ nuget locals all -clear
++ ~~~~~
+    + CategoryInfo          : ObjectNotFound: (nuget:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+nuget : The term 'nuget' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ nuget locals all -clear
++ ~~~~~
+    + CategoryInfo          : ObjectNotFound: (nuget:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+nuget : The term 'nuget' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included,
+verify that the path is correct and try again.
+At line:1 char:1
++ nuget locals all -clear
++ ~~~~~
+    + CategoryInfo          : ObjectNotFound: (nuget:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PM>locals all -clear
+
+**********************
+Windows PowerShell transcript start
+Start time: 20180709170145
+Username: CORP\naeemu
+RunAs User: CORP\naeemu
+Machine: LONMB-L42115 (Microsoft Windows NT 10.0.14393.0)
+Host Application: C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\devenv.exe
+Process ID: 32352
+PSVersion: 5.1.14393.1944
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14393.1944
+BuildVersion: 10.0.14393.1944
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+PS>CommandInvocation(Out-String): "Out-String"
+>> ParameterBinding(Out-String): name="InputObject"; value="The term 'locals' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again."
+locals : The term 'locals' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ locals all -clear
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (locals:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+locals : The term 'locals' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ locals all -clear
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (locals:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+locals : The term 'locals' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was
+included, verify that the path is correct and try again.
+At line:1 char:1
++ locals all -clear
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (locals:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+

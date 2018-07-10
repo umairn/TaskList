@@ -1,0 +1,17 @@
+C:\Users\naeemu\source\repos\TaskList\TaskList.DataAccess.Tests\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\naeemu\source\repos\TaskList\TaskList.DataAccess.Tests\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\naeemu\source\repos\TaskList\TaskList.DataAccess.Tests\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\naeemu\source\repos\TaskList\TaskList.DataAccess.Tests\bin\Debug\netcoreapp2.0\TaskList.DataAccess.Tests.deps.json
+C:\Users\naeemu\source\repos\TaskList\TaskList.DataAccess.Tests\bin\Debug\netcoreapp2.0\TaskList.DataAccess.Tests.runtimeconfig.json
+C:\Users\naeemu\source\repos\TaskList\TaskList.DataAccess.Tests\bin\Debug\netcoreapp2.0\TaskList.DataAccess.Tests.runtimeconfig.dev.json
+C:\Users\naeemu\source\repos\TaskList\TaskList.DataAccess.Tests\bin\Debug\netcoreapp2.0\TaskList.DataAccess.Tests.dll
+C:\Users\naeemu\source\repos\TaskList\TaskList.DataAccess.Tests\obj\Debug\netcoreapp2.0\TaskList.DataAccess.Tests.csprojResolveAssemblyReference.cache
+C:\Users\naeemu\source\repos\TaskList\TaskList.DataAccess.Tests\obj\Debug\netcoreapp2.0\TaskList.DataAccess.Tests.csproj.CoreCompileInputs.cache
+C:\Users\naeemu\source\repos\TaskList\TaskList.DataAccess.Tests\obj\Debug\netcoreapp2.0\TaskList.DataAccess.Tests.AssemblyInfoInputs.cache
+C:\Users\naeemu\source\repos\TaskList\TaskList.DataAccess.Tests\obj\Debug\netcoreapp2.0\TaskList.DataAccess.Tests.AssemblyInfo.cs
+C:\Users\naeemu\source\repos\TaskList\TaskList.DataAccess.Tests\obj\Debug\netcoreapp2.0\TaskList.DataAccess.Tests.csproj.CopyComplete
+C:\Users\naeemu\source\repos\TaskList\TaskList.DataAccess.Tests\bin\Debug\netcoreapp2.0\TaskList.DataAccess.Tests.pdb
+C:\Users\naeemu\source\repos\TaskList\TaskList.DataAccess.Tests\obj\Debug\netcoreapp2.0\TaskList.DataAccess.Tests.dll
+C:\Users\naeemu\source\repos\TaskList\TaskList.DataAccess.Tests\obj\Debug\netcoreapp2.0\TaskList.DataAccess.Tests.pdb
+C:\Users\naeemu\source\repos\TaskList\TaskList.DataAccess.Tests\bin\Debug\netcoreapp2.0\TaskList.Api.DataAccess.dll
+C:\Users\naeemu\source\repos\TaskList\TaskList.DataAccess.Tests\bin\Debug\netcoreapp2.0\TaskList.Api.DataAccess.pdb

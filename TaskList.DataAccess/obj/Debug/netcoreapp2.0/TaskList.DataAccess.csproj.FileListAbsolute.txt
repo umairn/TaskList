@@ -1,0 +1,9 @@
+C:\Users\naeemu\source\repos\TaskList\TaskList.DataAccess\obj\Debug\netcoreapp2.0\TaskList.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\naeemu\source\repos\TaskList\TaskList.DataAccess\obj\Debug\netcoreapp2.0\TaskList.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\naeemu\source\repos\TaskList\TaskList.DataAccess\obj\Debug\netcoreapp2.0\TaskList.DataAccess.AssemblyInfoInputs.cache
+C:\Users\naeemu\source\repos\TaskList\TaskList.DataAccess\obj\Debug\netcoreapp2.0\TaskList.DataAccess.AssemblyInfo.cs
+C:\Users\naeemu\source\repos\TaskList\TaskList.DataAccess\bin\Debug\netcoreapp2.0\TaskList.DataAccess.deps.json
+C:\Users\naeemu\source\repos\TaskList\TaskList.DataAccess\bin\Debug\netcoreapp2.0\TaskList.DataAccess.dll
+C:\Users\naeemu\source\repos\TaskList\TaskList.DataAccess\bin\Debug\netcoreapp2.0\TaskList.DataAccess.pdb
+C:\Users\naeemu\source\repos\TaskList\TaskList.DataAccess\obj\Debug\netcoreapp2.0\TaskList.DataAccess.dll
+C:\Users\naeemu\source\repos\TaskList\TaskList.DataAccess\obj\Debug\netcoreapp2.0\TaskList.DataAccess.pdb

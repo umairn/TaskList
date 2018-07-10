@@ -1,0 +1,413 @@
+2018-07-10 11:46:04,365 [8] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/values   
+ 
+2018-07-10 11:46:05,088 [8] ERROR App  
+ The constraint entry 'name' - 'string' on the route 'api/v1/Task/GetTask/{id}/{name:string}' could not be resolved by the constraint resolver of type 'DefaultInlineConstraintResolver'.   at Microsoft.AspNetCore.Routing.RouteConstraintBuilder.AddResolvedConstraint(String key, String constraintText)
+   at Microsoft.AspNetCore.Routing.Tree.TreeRouteBuilder.MapOutbound(IRouter handler, RouteTemplate routeTemplate, RouteValueDictionary requiredLinkValues, String routeName, Int32 order)
+   at Microsoft.AspNetCore.Mvc.Internal.AttributeRoute.AddEntries(TreeRouteBuilder builder, ActionDescriptorCollection actions)
+   at Microsoft.AspNetCore.Mvc.Internal.AttributeRoute.GetTreeRouter()
+   at Microsoft.AspNetCore.Mvc.Internal.AttributeRoute.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.<RouteAsync>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at TaskList.Api.ErrorHandlingMiddleware.<Invoke>d__3.MoveNext() in C:\Users\naeemu\source\repos\TaskList\TaskList.Api\Filters\ErrorHandlingMiddleware.cs:line 28 
+ 
+2018-07-10 11:46:05,594 [8] INFO  App  
+ Request finished in 1236.4748ms 400 application/json 
+ 
+2018-07-10 11:46:05,632 [8] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/favicon.ico   
+ 
+2018-07-10 11:46:05,692 [8] ERROR App  
+ The constraint entry 'name' - 'string' on the route 'api/v1/Task/GetTask/{id}/{name:string}' could not be resolved by the constraint resolver of type 'DefaultInlineConstraintResolver'.   at Microsoft.AspNetCore.Routing.RouteConstraintBuilder.AddResolvedConstraint(String key, String constraintText)
+   at Microsoft.AspNetCore.Routing.Tree.TreeRouteBuilder.MapOutbound(IRouter handler, RouteTemplate routeTemplate, RouteValueDictionary requiredLinkValues, String routeName, Int32 order)
+   at Microsoft.AspNetCore.Mvc.Internal.AttributeRoute.AddEntries(TreeRouteBuilder builder, ActionDescriptorCollection actions)
+   at Microsoft.AspNetCore.Mvc.Internal.AttributeRoute.GetTreeRouter()
+   at Microsoft.AspNetCore.Mvc.Internal.AttributeRoute.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.<RouteAsync>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at TaskList.Api.ErrorHandlingMiddleware.<Invoke>d__3.MoveNext() in C:\Users\naeemu\source\repos\TaskList\TaskList.Api\Filters\ErrorHandlingMiddleware.cs:line 28 
+ 
+2018-07-10 11:46:05,702 [8] INFO  App  
+ Request finished in 71.2402ms 400 application/json 
+ 
+2018-07-10 11:47:07,230 [10] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/values   
+ 
+2018-07-10 11:47:07,418 [10] INFO  App  
+ Request finished in 236.1897ms 404  
+ 
+2018-07-10 11:53:44,347 [8] INFO  App  
+ Request starting HTTP/1.1 POST http://localhost:63446/api/v1/Task/AddTask/ application/json 68 
+ 
+2018-07-10 11:53:44,941 [8] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.AddTask (TaskList.Api) with arguments (TaskList.Api.Common.TaskItem) - ModelState is Valid 
+ 
+2018-07-10 11:53:45,434 [8] INFO  App  
+ Entity Framework Core 2.1.1-rtm-30846 initialized 'TasksContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TaskList  
+ 
+2018-07-10 11:53:45,667 [8] INFO  App  
+ Saved 1 entities to in-memory store. 
+ 
+2018-07-10 11:53:45,963 [8] INFO  App  
+ Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+ 
+2018-07-10 11:53:46,049 [8] INFO  App  
+ Executed action TaskList.Api.Controllers.TaskController.AddTask (TaskList.Api) in 1575.0339ms 
+ 
+2018-07-10 11:53:46,055 [8] INFO  App  
+ Request finished in 1708.2217ms 200 application/json; charset=utf-8 
+ 
+2018-07-10 11:54:55,567 [9] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/v1/Task/GetTask/?id=28db3743-b357-415b-920c-59c4273a5475   
+ 
+2018-07-10 11:54:55,572 [9] INFO  App  
+ Request finished in 2.1747ms 404  
+ 
+2018-07-10 11:55:23,428 [8] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/v1/Task/GetTask/28db3743-b357-415b-920c-59c4273a5475   
+ 
+2018-07-10 11:55:23,430 [8] INFO  App  
+ Request finished in 1.7513ms 404  
+ 
+2018-07-10 11:55:33,293 [16] INFO  App  
+ Request starting HTTP/1.1 POST http://localhost:63446/api/v1/Task/AddTask/ application/json 68 
+ 
+2018-07-10 11:55:33,304 [16] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.AddTask (TaskList.Api) with arguments (TaskList.Api.Common.TaskItem) - ModelState is Valid 
+ 
+2018-07-10 11:55:33,316 [16] INFO  App  
+ Entity Framework Core 2.1.1-rtm-30846 initialized 'TasksContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TaskList  
+ 
+2018-07-10 11:55:33,319 [16] INFO  App  
+ Saved 1 entities to in-memory store. 
+ 
+2018-07-10 11:55:33,350 [16] INFO  App  
+ Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+ 
+2018-07-10 11:55:33,352 [16] INFO  App  
+ Executed action TaskList.Api.Controllers.TaskController.AddTask (TaskList.Api) in 55.954ms 
+ 
+2018-07-10 11:55:33,353 [16] INFO  App  
+ Request finished in 63.4888ms 200 application/json; charset=utf-8 
+ 
+2018-07-10 11:55:37,292 [8] INFO  App  
+ Request starting HTTP/1.1 POST http://localhost:63446/api/v1/Task/AddTask/ application/json 68 
+ 
+2018-07-10 11:55:37,294 [8] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.AddTask (TaskList.Api) with arguments (TaskList.Api.Common.TaskItem) - ModelState is Valid 
+ 
+2018-07-10 11:55:37,297 [8] INFO  App  
+ Entity Framework Core 2.1.1-rtm-30846 initialized 'TasksContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TaskList  
+ 
+2018-07-10 11:55:37,301 [8] INFO  App  
+ Saved 1 entities to in-memory store. 
+ 
+2018-07-10 11:55:37,304 [8] INFO  App  
+ Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+ 
+2018-07-10 11:55:37,306 [8] INFO  App  
+ Executed action TaskList.Api.Controllers.TaskController.AddTask (TaskList.Api) in 11.6336ms 
+ 
+2018-07-10 11:55:37,307 [8] INFO  App  
+ Request finished in 15.8092ms 200 application/json; charset=utf-8 
+ 
+2018-07-10 11:55:38,383 [16] INFO  App  
+ Request starting HTTP/1.1 POST http://localhost:63446/api/v1/Task/AddTask/ application/json 68 
+ 
+2018-07-10 11:55:38,393 [16] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.AddTask (TaskList.Api) with arguments (TaskList.Api.Common.TaskItem) - ModelState is Valid 
+ 
+2018-07-10 11:55:38,397 [16] INFO  App  
+ Entity Framework Core 2.1.1-rtm-30846 initialized 'TasksContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TaskList  
+ 
+2018-07-10 11:55:38,399 [16] INFO  App  
+ Saved 1 entities to in-memory store. 
+ 
+2018-07-10 11:55:38,403 [16] INFO  App  
+ Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+ 
+2018-07-10 11:55:38,405 [16] INFO  App  
+ Executed action TaskList.Api.Controllers.TaskController.AddTask (TaskList.Api) in 19.929ms 
+ 
+2018-07-10 11:55:38,407 [16] INFO  App  
+ Request finished in 24.4742ms 200 application/json; charset=utf-8 
+ 
+2018-07-10 11:55:39,596 [8] INFO  App  
+ Request starting HTTP/1.1 POST http://localhost:63446/api/v1/Task/AddTask/ application/json 68 
+ 
+2018-07-10 11:55:39,598 [8] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.AddTask (TaskList.Api) with arguments (TaskList.Api.Common.TaskItem) - ModelState is Valid 
+ 
+2018-07-10 11:55:39,600 [8] INFO  App  
+ Entity Framework Core 2.1.1-rtm-30846 initialized 'TasksContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TaskList  
+ 
+2018-07-10 11:55:39,602 [8] INFO  App  
+ Saved 1 entities to in-memory store. 
+ 
+2018-07-10 11:55:39,603 [8] INFO  App  
+ Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+ 
+2018-07-10 11:55:39,605 [8] INFO  App  
+ Executed action TaskList.Api.Controllers.TaskController.AddTask (TaskList.Api) in 7.5979ms 
+ 
+2018-07-10 11:55:39,607 [8] INFO  App  
+ Request finished in 11.7157ms 200 application/json; charset=utf-8 
+ 
+2018-07-10 11:56:53,240 [19] INFO  App  
+ Request starting HTTP/1.1 POST http://localhost:63446/api/v1/Task/AddTask/ application/json 68 
+ 
+2018-07-10 11:56:53,243 [19] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.AddTask (TaskList.Api) with arguments (TaskList.Api.Common.TaskItem) - ModelState is Valid 
+ 
+2018-07-10 11:59:35,753 [19] INFO  App  
+ Entity Framework Core 2.1.1-rtm-30846 initialized 'TasksContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TaskList  
+ 
+2018-07-10 11:59:35,756 [19] INFO  App  
+ Saved 1 entities to in-memory store. 
+ 
+2018-07-10 11:59:35,782 [19] INFO  App  
+ Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+ 
+2018-07-10 11:59:35,784 [19] INFO  App  
+ Executed action TaskList.Api.Controllers.TaskController.AddTask (TaskList.Api) in 162545.616ms 
+ 
+2018-07-10 11:59:35,795 [19] INFO  App  
+ Request finished in 162550.32ms 200 application/json; charset=utf-8 
+ 
+2018-07-10 12:01:10,786 [10] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/values   
+ 
+2018-07-10 12:01:11,093 [10] INFO  App  
+ Request finished in 423.8288ms 404  
+ 
+2018-07-10 12:03:46,366 [8] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/values   
+ 
+2018-07-10 12:03:46,706 [8] ERROR App  
+ The constraint entry 'name' - 'string' on the route 'api/v1/Task/GetTask/{id}/{name:string}' could not be resolved by the constraint resolver of type 'DefaultInlineConstraintResolver'.   at Microsoft.AspNetCore.Routing.RouteConstraintBuilder.AddResolvedConstraint(String key, String constraintText)
+   at Microsoft.AspNetCore.Routing.Tree.TreeRouteBuilder.MapOutbound(IRouter handler, RouteTemplate routeTemplate, RouteValueDictionary requiredLinkValues, String routeName, Int32 order)
+   at Microsoft.AspNetCore.Mvc.Internal.AttributeRoute.AddEntries(TreeRouteBuilder builder, ActionDescriptorCollection actions)
+   at Microsoft.AspNetCore.Mvc.Internal.AttributeRoute.GetTreeRouter()
+   at Microsoft.AspNetCore.Mvc.Internal.AttributeRoute.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.<RouteAsync>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at TaskList.Api.ErrorHandlingMiddleware.<Invoke>d__3.MoveNext() in C:\Users\naeemu\source\repos\TaskList\TaskList.Api\Filters\ErrorHandlingMiddleware.cs:line 28 
+ 
+2018-07-10 12:03:46,925 [8] INFO  App  
+ Request finished in 625.9927ms 400 application/json 
+ 
+2018-07-10 12:03:47,004 [10] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/favicon.ico   
+ 
+2018-07-10 12:03:47,073 [10] ERROR App  
+ The constraint entry 'name' - 'string' on the route 'api/v1/Task/GetTask/{id}/{name:string}' could not be resolved by the constraint resolver of type 'DefaultInlineConstraintResolver'.   at Microsoft.AspNetCore.Routing.RouteConstraintBuilder.AddResolvedConstraint(String key, String constraintText)
+   at Microsoft.AspNetCore.Routing.Tree.TreeRouteBuilder.MapOutbound(IRouter handler, RouteTemplate routeTemplate, RouteValueDictionary requiredLinkValues, String routeName, Int32 order)
+   at Microsoft.AspNetCore.Mvc.Internal.AttributeRoute.AddEntries(TreeRouteBuilder builder, ActionDescriptorCollection actions)
+   at Microsoft.AspNetCore.Mvc.Internal.AttributeRoute.GetTreeRouter()
+   at Microsoft.AspNetCore.Mvc.Internal.AttributeRoute.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.<RouteAsync>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at TaskList.Api.ErrorHandlingMiddleware.<Invoke>d__3.MoveNext() in C:\Users\naeemu\source\repos\TaskList\TaskList.Api\Filters\ErrorHandlingMiddleware.cs:line 28 
+ 
+2018-07-10 12:03:47,088 [10] INFO  App  
+ Request finished in 74.0538ms 400 application/json 
+ 
+2018-07-10 12:03:52,836 [8] INFO  App  
+ Request starting HTTP/1.1 POST http://localhost:63446/api/v1/Task/AddTask/ application/json 68 
+ 
+2018-07-10 12:03:52,904 [8] ERROR App  
+ The constraint entry 'name' - 'string' on the route 'api/v1/Task/GetTask/{id}/{name:string}' could not be resolved by the constraint resolver of type 'DefaultInlineConstraintResolver'.   at Microsoft.AspNetCore.Routing.RouteConstraintBuilder.AddResolvedConstraint(String key, String constraintText)
+   at Microsoft.AspNetCore.Routing.Tree.TreeRouteBuilder.MapOutbound(IRouter handler, RouteTemplate routeTemplate, RouteValueDictionary requiredLinkValues, String routeName, Int32 order)
+   at Microsoft.AspNetCore.Mvc.Internal.AttributeRoute.AddEntries(TreeRouteBuilder builder, ActionDescriptorCollection actions)
+   at Microsoft.AspNetCore.Mvc.Internal.AttributeRoute.GetTreeRouter()
+   at Microsoft.AspNetCore.Mvc.Internal.AttributeRoute.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.<RouteAsync>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at TaskList.Api.ErrorHandlingMiddleware.<Invoke>d__3.MoveNext() in C:\Users\naeemu\source\repos\TaskList\TaskList.Api\Filters\ErrorHandlingMiddleware.cs:line 28 
+ 
+2018-07-10 12:03:52,987 [8] INFO  App  
+ Request finished in 138.0358ms 400 application/json 
+ 
+2018-07-10 12:06:57,672 [8] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/values   
+ 
+2018-07-10 12:06:57,929 [8] INFO  App  
+ Request finished in 330.0757ms 404  
+ 
+2018-07-10 12:07:23,926 [8] INFO  App  
+ Request starting HTTP/1.1 POST http://localhost:63446/api/v1/Task/AddTask/ application/json 68 
+ 
+2018-07-10 12:07:24,444 [8] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.AddTask (TaskList.Api) with arguments (TaskList.Api.Common.TaskItem) - ModelState is Valid 
+ 
+2018-07-10 12:07:27,865 [8] INFO  App  
+ Entity Framework Core 2.1.1-rtm-30846 initialized 'TasksContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TaskList  
+ 
+2018-07-10 12:07:28,077 [8] INFO  App  
+ Saved 1 entities to in-memory store. 
+ 
+2018-07-10 12:07:28,379 [8] INFO  App  
+ Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+ 
+2018-07-10 12:07:28,463 [8] INFO  App  
+ Executed action TaskList.Api.Controllers.TaskController.AddTask (TaskList.Api) in 4427.771ms 
+ 
+2018-07-10 12:07:28,470 [8] INFO  App  
+ Request finished in 4543.0031ms 200 application/json; charset=utf-8 
+ 
+2018-07-10 12:07:46,826 [9] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/v1/Task/GetTask/f2a4a92a-2bef-4dff-9621-bd5be4a55cc3   
+ 
+2018-07-10 12:07:46,836 [9] INFO  App  
+ Request finished in 2.155ms 404  
+ 
+2018-07-10 12:08:11,719 [8] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/v1/Task/GetTask/f2a4a92a-2bef-4dff-9621-bd5be4a55cc3   
+ 
+2018-07-10 12:08:11,725 [8] INFO  App  
+ Request finished in 2.2445ms 404  
+ 
+2018-07-10 12:08:40,072 [8] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/v1/Task/GetTask/id=f2a4a92a-2bef-4dff-9621-bd5be4a55cc3   
+ 
+2018-07-10 12:08:40,077 [8] INFO  App  
+ Request finished in 3.0174ms 404  
+ 
+2018-07-10 12:09:03,276 [8] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/v1/Task/GetTask?id=f2a4a92a-2bef-4dff-9621-bd5be4a55cc3   
+ 
+2018-07-10 12:09:03,281 [8] INFO  App  
+ Request finished in 1.8613ms 404  
+ 
+2018-07-10 12:09:34,795 [9] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/v1/Task/GetTask/f2a4a92a-2bef-4dff-9621-bd5be4a55cc3   
+ 
+2018-07-10 12:09:34,800 [9] INFO  App  
+ Request finished in 1.7665ms 404  
+ 
+2018-07-10 12:12:05,919 [8] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/values   
+ 
+2018-07-10 12:12:06,194 [8] INFO  App  
+ Request finished in 354.6509ms 404  
+ 
+2018-07-10 12:12:15,181 [10] INFO  App  
+ Request starting HTTP/1.1 POST http://localhost:63446/api/v1/Task/AddTask/ application/json 68 
+ 
+2018-07-10 12:12:15,650 [10] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.AddTask (TaskList.Api) with arguments (TaskList.Api.Common.TaskItem) - ModelState is Valid 
+ 
+2018-07-10 12:12:23,634 [10] INFO  App  
+ Entity Framework Core 2.1.1-rtm-30846 initialized 'TasksContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TaskList  
+ 
+2018-07-10 12:12:23,838 [10] INFO  App  
+ Saved 1 entities to in-memory store. 
+ 
+2018-07-10 12:12:24,145 [10] INFO  App  
+ Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+ 
+2018-07-10 12:12:24,238 [10] INFO  App  
+ Executed action TaskList.Api.Controllers.TaskController.AddTask (TaskList.Api) in 8953.9252ms 
+ 
+2018-07-10 12:12:24,256 [10] INFO  App  
+ Request finished in 9063.0831ms 200 application/json; charset=utf-8 
+ 
+2018-07-10 12:13:01,572 [9] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/v1/Task/GetTask/dfc803b2-d2bd-49e2-862b-b31a31cb53e7   
+ 
+2018-07-10 12:13:01,614 [9] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.GetTaskItem (TaskList.Api) with arguments (dfc803b2-d2bd-49e2-862b-b31a31cb53e7, ) - ModelState is Valid 
+ 
+2018-07-10 12:13:10,007 [9] INFO  App  
+ Entity Framework Core 2.1.1-rtm-30846 initialized 'TasksContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TaskList  
+ 
+2018-07-10 12:13:10,050 [9] INFO  App  
+ Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+ 
+2018-07-10 12:13:10,052 [9] INFO  App  
+ Executed action TaskList.Api.Controllers.TaskController.GetTaskItem (TaskList.Api) in 8467.0014ms 
+ 
+2018-07-10 12:13:10,054 [9] INFO  App  
+ Request finished in 8482.2067ms 200 application/json; charset=utf-8 
+ 
+2018-07-10 12:13:41,069 [9] INFO  App  
+ Request starting HTTP/1.1 POST http://localhost:63446/api/v1/Task/AddTask/ application/json 68 
+ 
+2018-07-10 12:13:41,074 [9] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.AddTask (TaskList.Api) with arguments (TaskList.Api.Common.TaskItem) - ModelState is Valid 
+ 
+2018-07-10 12:13:43,608 [9] INFO  App  
+ Entity Framework Core 2.1.1-rtm-30846 initialized 'TasksContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TaskList  
+ 
+2018-07-10 12:13:43,611 [9] INFO  App  
+ Saved 1 entities to in-memory store. 
+ 
+2018-07-10 12:13:43,621 [9] INFO  App  
+ Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+ 
+2018-07-10 12:13:43,624 [9] INFO  App  
+ Executed action TaskList.Api.Controllers.TaskController.AddTask (TaskList.Api) in 2551.3202ms 
+ 
+2018-07-10 12:13:43,631 [9] INFO  App  
+ Request finished in 2558.7323ms 200 application/json; charset=utf-8 
+ 
+2018-07-10 12:14:19,596 [8] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/v1/Task/GetTasks/   
+ 
+2018-07-10 12:14:19,605 [8] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) with arguments ((null)) - ModelState is Valid 
+ 
+2018-07-10 12:14:22,354 [8] INFO  App  
+ Entity Framework Core 2.1.1-rtm-30846 initialized 'TasksContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TaskList  
+ 
+2018-07-10 12:14:22,368 [8] INFO  App  
+ Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+ 
+2018-07-10 12:14:22,387 [8] INFO  App  
+ Executed action TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) in 2781.2826ms 
+ 
+2018-07-10 12:14:22,389 [8] INFO  App  
+ Request finished in 2792.4482ms 200 application/json; charset=utf-8 
+ 
+2018-07-10 12:33:46,656 [11] INFO  App  
+ Request starting HTTP/1.1 POST http://127.0.0.1:31894/iisintegration  0 
+ 
+2018-07-10 12:33:46,693 [11] INFO  App  
+ Request finished in 78.3549ms 202  
+ 
+2018-07-10 12:53:55,083 [11] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/values   
+ 
+2018-07-10 12:53:55,354 [11] INFO  App  
+ Request finished in 337.2166ms 404  
+ 
