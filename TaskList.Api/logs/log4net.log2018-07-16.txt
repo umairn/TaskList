@@ -1,0 +1,1217 @@
+2018-07-16 00:01:49,615 [8] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/values   
+ 
+2018-07-16 00:01:50,115 [8] INFO  App  
+ Request finished in 569.6707ms 404  
+ 
+2018-07-16 00:03:40,614 [8] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/values   
+ 
+2018-07-16 00:03:40,835 [8] INFO  App  
+ Request finished in 284.974ms 404  
+ 
+2018-07-16 00:05:22,145 [8] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/values   
+ 
+2018-07-16 00:05:22,344 [8] INFO  App  
+ Request finished in 249.3564ms 404  
+ 
+2018-07-16 00:08:25,995 [10] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/values   
+ 
+2018-07-16 00:08:26,207 [10] INFO  App  
+ Request finished in 279.6485ms 404  
+ 
+2018-07-16 00:10:58,015 [11] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/values   
+ 
+2018-07-16 00:10:58,211 [11] INFO  App  
+ Request finished in 258.9728ms 404  
+ 
+2018-07-16 00:13:01,459 [9] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/values   
+ 
+2018-07-16 00:13:01,752 [9] INFO  App  
+ Request finished in 409.2932ms 404  
+ 
+2018-07-16 00:14:23,909 [8] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/values   
+ 
+2018-07-16 00:14:24,158 [8] INFO  App  
+ Request finished in 304.9408ms 404  
+ 
+2018-07-16 00:23:28,669 [11] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/values   
+ 
+2018-07-16 00:23:29,000 [11] INFO  App  
+ Request finished in 397.6485ms 404  
+ 
+2018-07-16 00:24:09,343 [8] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/values   
+ 
+2018-07-16 00:24:09,534 [8] INFO  App  
+ Request finished in 244.7504ms 404  
+ 
+2018-07-16 08:33:36,113 [11] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/   
+ 
+2018-07-16 08:33:36,350 [11] INFO  App  
+ Request finished in 300.1363ms 404  
+ 
+2018-07-16 08:33:36,367 [8] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/   
+ 
+2018-07-16 08:33:36,368 [8] INFO  App  
+ Request finished in 0.9862ms 404  
+ 
+2018-07-16 08:33:36,381 [10] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/   
+ 
+2018-07-16 08:33:36,382 [10] INFO  App  
+ Request finished in 0.4492ms 404  
+ 
+2018-07-16 08:34:22,922 [9] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/v1/Document/   
+ 
+2018-07-16 08:34:22,923 [9] INFO  App  
+ Request finished in 0.8135ms 404  
+ 
+2018-07-16 08:34:22,939 [11] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/v1/Document/   
+ 
+2018-07-16 08:34:22,939 [11] INFO  App  
+ Request finished in 0.5965ms 404  
+ 
+2018-07-16 08:34:28,898 [10] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/v1/Document/   
+ 
+2018-07-16 08:34:28,899 [10] INFO  App  
+ Request finished in 0.523ms 404  
+ 
+2018-07-16 08:39:05,553 [11] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/values   
+ 
+2018-07-16 08:39:05,732 [11] INFO  App  
+ Request finished in 225.8556ms 404  
+ 
+2018-07-16 09:17:33,562 [8] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/values   
+ 
+2018-07-16 09:17:34,284 [8] INFO  App  
+ Request finished in 833.012ms 404  
+ 
+2018-07-16 09:18:02,134 [10] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/v1/Task/GetTasks/   
+ 
+2018-07-16 09:18:02,420 [10] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) with arguments ((null)) - ModelState is Valid 
+ 
+2018-07-16 09:18:28,613 [10] INFO  App  
+ Entity Framework Core 2.1.1-rtm-30846 initialized 'TasksContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TaskList  
+ 
+2018-07-16 09:18:52,340 [10] INFO  App  
+ Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+ 
+2018-07-16 09:18:52,527 [10] INFO  App  
+ Executed action TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) in 50310.0231ms 
+ 
+2018-07-16 09:18:57,874 [10] INFO  App  
+ Request finished in 55740.477ms 200 application/json; charset=utf-8 
+ 
+2018-07-16 10:33:43,198 [8] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/values   
+ 
+2018-07-16 10:33:43,564 [8] INFO  App  
+ Request finished in 418.6816ms 404  
+ 
+2018-07-16 10:34:38,571 [8] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/v1/Task/GetTask/dfc803b2-d2bd-49e2-862b-b31a31cb53e7   
+ 
+2018-07-16 10:34:38,964 [8] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.GetTaskItem (TaskList.Api) with arguments (dfc803b2-d2bd-49e2-862b-b31a31cb53e7, ) - ModelState is Valid 
+ 
+2018-07-16 10:34:39,645 [8] INFO  App  
+ Entity Framework Core 2.1.1-rtm-30846 initialized 'TasksContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TaskList  
+ 
+2018-07-16 10:34:40,144 [8] ERROR App  
+ Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index 
+ 
+2018-07-16 10:34:40,155 [8] INFO  App  
+ Executed action TaskList.Api.Controllers.TaskController.GetTaskItem (TaskList.Api) in 1471.3581ms 
+ 
+2018-07-16 10:34:40,335 [8] ERROR App  
+ Cannot return null from an action method with a return type of 'Microsoft.AspNetCore.Mvc.IActionResult'.   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at TaskList.Api.ErrorHandlingMiddleware.<Invoke>d__3.MoveNext() in C:\Users\naeemu\source\repos\TaskList\TaskList.Api\Filters\ErrorHandlingMiddleware.cs:line 28 
+ 
+2018-07-16 10:34:40,568 [8] INFO  App  
+ Request finished in 1996.3975ms 400 application/json 
+ 
+2018-07-16 10:35:03,854 [9] INFO  App  
+ Request starting HTTP/1.1 POST http://localhost:63446/api/v1/Task/AddTask/ application/json 68 
+ 
+2018-07-16 10:35:03,966 [9] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.AddTask (TaskList.Api) with arguments (TaskList.Api.Common.TaskItem) - ModelState is Valid 
+ 
+2018-07-16 10:35:03,990 [9] INFO  App  
+ Entity Framework Core 2.1.1-rtm-30846 initialized 'TasksContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TaskList  
+ 
+2018-07-16 10:35:04,290 [9] INFO  App  
+ Saved 1 entities to in-memory store. 
+ 
+2018-07-16 10:35:04,343 [9] INFO  App  
+ Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+ 
+2018-07-16 10:35:04,379 [9] INFO  App  
+ Executed action TaskList.Api.Controllers.TaskController.AddTask (TaskList.Api) in 514.7177ms 
+ 
+2018-07-16 10:35:04,385 [9] INFO  App  
+ Request finished in 530.2861ms 200 application/json; charset=utf-8 
+ 
+2018-07-16 10:35:15,807 [17] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/v1/Task/GetTasks/   
+ 
+2018-07-16 10:35:15,815 [17] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) with arguments ((null)) - ModelState is Valid 
+ 
+2018-07-16 10:35:36,345 [17] INFO  App  
+ Entity Framework Core 2.1.1-rtm-30846 initialized 'TasksContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TaskList  
+ 
+2018-07-16 10:35:51,017 [17] INFO  App  
+ Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+ 
+2018-07-16 10:35:51,041 [17] INFO  App  
+ Executed action TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) in 35225.0979ms 
+ 
+2018-07-16 10:35:51,049 [17] INFO  App  
+ Request finished in 35235.653ms 200 application/json; charset=utf-8 
+ 
+2018-07-16 10:36:11,300 [9] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/v1/Task/GetTask/dfc803b2-d2bd-49e2-862b-b31a31cb53e7   
+ 
+2018-07-16 10:36:11,302 [9] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.GetTaskItem (TaskList.Api) with arguments (dfc803b2-d2bd-49e2-862b-b31a31cb53e7, ) - ModelState is Valid 
+ 
+2018-07-16 10:36:11,304 [9] INFO  App  
+ Entity Framework Core 2.1.1-rtm-30846 initialized 'TasksContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TaskList  
+ 
+2018-07-16 10:36:11,368 [9] ERROR App  
+ Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index 
+ 
+2018-07-16 10:36:11,371 [9] INFO  App  
+ Executed action TaskList.Api.Controllers.TaskController.GetTaskItem (TaskList.Api) in 69.3038ms 
+ 
+2018-07-16 10:36:11,438 [9] ERROR App  
+ Cannot return null from an action method with a return type of 'Microsoft.AspNetCore.Mvc.IActionResult'.   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at TaskList.Api.ErrorHandlingMiddleware.<Invoke>d__3.MoveNext() in C:\Users\naeemu\source\repos\TaskList\TaskList.Api\Filters\ErrorHandlingMiddleware.cs:line 28 
+ 
+2018-07-16 10:36:11,440 [9] INFO  App  
+ Request finished in 141.0425ms 400 application/json 
+ 
+2018-07-16 10:36:58,172 [8] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/v1/Task/GetTasks/   
+ 
+2018-07-16 10:36:58,174 [8] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) with arguments ((null)) - ModelState is Valid 
+ 
+2018-07-16 10:37:04,279 [8] INFO  App  
+ Entity Framework Core 2.1.1-rtm-30846 initialized 'TasksContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TaskList  
+ 
+2018-07-16 10:37:04,281 [8] INFO  App  
+ Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+ 
+2018-07-16 10:37:04,304 [8] INFO  App  
+ Executed action TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) in 6109.8621ms 
+ 
+2018-07-16 10:37:04,308 [8] INFO  App  
+ Request finished in 6136.0542ms 200 application/json; charset=utf-8 
+ 
+2018-07-16 10:38:14,242 [8] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/v1/Task/GetTasks/   
+ 
+2018-07-16 10:38:14,245 [8] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) with arguments ((null)) - ModelState is Valid 
+ 
+2018-07-16 10:38:14,247 [8] INFO  App  
+ Entity Framework Core 2.1.1-rtm-30846 initialized 'TasksContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TaskList  
+ 
+2018-07-16 10:38:14,253 [8] INFO  App  
+ Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+ 
+2018-07-16 10:38:14,256 [8] INFO  App  
+ Executed action TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) in 10.8841ms 
+ 
+2018-07-16 10:38:14,258 [8] INFO  App  
+ Request finished in 16.0221ms 200 application/json; charset=utf-8 
+ 
+2018-07-16 10:38:18,201 [8] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/v1/Task/GetTasks/   
+ 
+2018-07-16 10:38:18,203 [8] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) with arguments ((null)) - ModelState is Valid 
+ 
+2018-07-16 10:38:18,205 [8] INFO  App  
+ Entity Framework Core 2.1.1-rtm-30846 initialized 'TasksContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TaskList  
+ 
+2018-07-16 10:38:18,208 [8] INFO  App  
+ Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+ 
+2018-07-16 10:38:18,212 [8] INFO  App  
+ Executed action TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) in 6.763ms 
+ 
+2018-07-16 10:38:18,229 [8] INFO  App  
+ Request finished in 15.0765ms 200 application/json; charset=utf-8 
+ 
+2018-07-16 10:38:34,568 [9] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/v1/Task/GetTasks/   
+ 
+2018-07-16 10:38:34,570 [9] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) with arguments ((null)) - ModelState is Valid 
+ 
+2018-07-16 10:38:40,312 [9] INFO  App  
+ Entity Framework Core 2.1.1-rtm-30846 initialized 'TasksContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TaskList  
+ 
+2018-07-16 10:38:40,314 [9] INFO  App  
+ Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+ 
+2018-07-16 10:38:40,316 [9] INFO  App  
+ Executed action TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) in 5746.3174ms 
+ 
+2018-07-16 10:38:40,320 [9] INFO  App  
+ Request finished in 5750.3309ms 200 application/json; charset=utf-8 
+ 
+2018-07-16 10:39:04,917 [8] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/v1/Task/GetTask/96eef835-72f3-458f-8389-286fd6cdb599   
+ 
+2018-07-16 10:39:04,919 [8] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.GetTaskItem (TaskList.Api) with arguments (96eef835-72f3-458f-8389-286fd6cdb599, ) - ModelState is Valid 
+ 
+2018-07-16 10:39:04,921 [8] INFO  App  
+ Entity Framework Core 2.1.1-rtm-30846 initialized 'TasksContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TaskList  
+ 
+2018-07-16 10:39:04,925 [8] INFO  App  
+ Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+ 
+2018-07-16 10:39:04,929 [8] INFO  App  
+ Executed action TaskList.Api.Controllers.TaskController.GetTaskItem (TaskList.Api) in 8.8771ms 
+ 
+2018-07-16 10:39:04,933 [8] INFO  App  
+ Request finished in 14.7118ms 200 application/json; charset=utf-8 
+ 
+2018-07-16 10:39:21,116 [8] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/v1/Task/GetTasks/   
+ 
+2018-07-16 10:39:21,119 [8] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) with arguments ((null)) - ModelState is Valid 
+ 
+2018-07-16 10:39:29,947 [8] INFO  App  
+ Entity Framework Core 2.1.1-rtm-30846 initialized 'TasksContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TaskList  
+ 
+2018-07-16 10:39:29,950 [8] INFO  App  
+ Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+ 
+2018-07-16 10:39:29,953 [8] INFO  App  
+ Executed action TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) in 8834.1878ms 
+ 
+2018-07-16 10:39:29,957 [8] INFO  App  
+ Request finished in 8841.9548ms 200 application/json; charset=utf-8 
+ 
+2018-07-16 10:39:50,496 [8] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/v1/Task/GetTasks/   
+ 
+2018-07-16 10:39:50,501 [8] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) with arguments ((null)) - ModelState is Valid 
+ 
+2018-07-16 10:40:08,686 [8] INFO  App  
+ Entity Framework Core 2.1.1-rtm-30846 initialized 'TasksContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TaskList  
+ 
+2018-07-16 10:40:56,430 [8] INFO  App  
+ Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+ 
+2018-07-16 10:41:01,731 [8] INFO  App  
+ Executed action TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) in 71226.0997ms 
+ 
+2018-07-16 10:41:05,244 [8] INFO  App  
+ Request finished in 74747.3898ms 200 application/json; charset=utf-8 
+ 
+2018-07-16 10:41:10,955 [21] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/v1/Task/GetTasks/   
+ 
+2018-07-16 10:41:10,958 [21] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) with arguments ((null)) - ModelState is Valid 
+ 
+2018-07-16 10:41:14,732 [21] INFO  App  
+ Entity Framework Core 2.1.1-rtm-30846 initialized 'TasksContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TaskList  
+ 
+2018-07-16 10:41:14,734 [21] INFO  App  
+ Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+ 
+2018-07-16 10:41:14,737 [21] INFO  App  
+ Executed action TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) in 3779.1084ms 
+ 
+2018-07-16 10:41:14,742 [21] INFO  App  
+ Request finished in 3784.0548ms 200 application/json; charset=utf-8 
+ 
+2018-07-16 10:43:44,186 [8] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/v1/Task/GetTasks/   
+ 
+2018-07-16 10:43:50,918 [8] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) with arguments ((null)) - ModelState is Valid 
+ 
+2018-07-16 10:43:59,124 [8] INFO  App  
+ Entity Framework Core 2.1.1-rtm-30846 initialized 'TasksContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TaskList  
+ 
+2018-07-16 10:44:28,901 [8] INFO  App  
+ Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+ 
+2018-07-16 10:44:28,903 [8] INFO  App  
+ Executed action TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) in 37986.9247ms 
+ 
+2018-07-16 10:44:28,906 [8] INFO  App  
+ Request finished in 44722.223ms 200 application/json; charset=utf-8 
+ 
+2018-07-16 10:45:02,680 [27] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/v1/Task/GetTasks/   
+ 
+2018-07-16 10:45:02,681 [27] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) with arguments ((null)) - ModelState is Valid 
+ 
+2018-07-16 10:45:04,358 [27] INFO  App  
+ Entity Framework Core 2.1.1-rtm-30846 initialized 'TasksContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TaskList  
+ 
+2018-07-16 10:45:04,363 [27] INFO  App  
+ Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+ 
+2018-07-16 10:45:04,367 [27] INFO  App  
+ Executed action TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) in 1683.247ms 
+ 
+2018-07-16 10:45:04,372 [27] INFO  App  
+ Request finished in 1689.4222ms 200 application/json; charset=utf-8 
+ 
+2018-07-16 10:47:45,100 [8] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/values   
+ 
+2018-07-16 10:47:45,366 [8] INFO  App  
+ Request finished in 365.2218ms 404  
+ 
+2018-07-16 10:47:56,653 [8] INFO  App  
+ Request starting HTTP/1.1 POST http://localhost:63446/api/v1/Task/AddTask/ application/json 68 
+ 
+2018-07-16 10:47:57,130 [8] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.AddTask (TaskList.Api) with arguments (TaskList.Api.Common.TaskItem) - ModelState is Valid 
+ 
+2018-07-16 10:47:57,595 [8] INFO  App  
+ Entity Framework Core 2.1.1-rtm-30846 initialized 'TasksContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TaskList  
+ 
+2018-07-16 10:47:57,850 [8] INFO  App  
+ Saved 1 entities to in-memory store. 
+ 
+2018-07-16 10:47:58,169 [8] INFO  App  
+ Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+ 
+2018-07-16 10:47:58,244 [8] INFO  App  
+ Executed action TaskList.Api.Controllers.TaskController.AddTask (TaskList.Api) in 1489.3852ms 
+ 
+2018-07-16 10:47:58,254 [8] INFO  App  
+ Request finished in 1597.4636ms 200 application/json; charset=utf-8 
+ 
+2018-07-16 10:48:00,827 [9] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/v1/Task/GetTasks/   
+ 
+2018-07-16 10:48:00,836 [9] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) with arguments ((null)) - ModelState is Valid 
+ 
+2018-07-16 10:48:09,987 [9] INFO  App  
+ Entity Framework Core 2.1.1-rtm-30846 initialized 'TasksContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TaskList  
+ 
+2018-07-16 10:48:15,924 [9] INFO  App  
+ Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+ 
+2018-07-16 10:48:15,943 [9] INFO  App  
+ Executed action TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) in 15108.0492ms 
+ 
+2018-07-16 10:48:15,947 [9] INFO  App  
+ Request finished in 15118.594ms 200 application/json; charset=utf-8 
+ 
+2018-07-16 10:50:17,488 [10] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/values   
+ 
+2018-07-16 10:50:17,683 [10] INFO  App  
+ Request finished in 248.446ms 404  
+ 
+2018-07-16 10:50:21,155 [9] INFO  App  
+ Request starting HTTP/1.1 POST http://localhost:63446/api/v1/Task/AddTask/ application/json 68 
+ 
+2018-07-16 10:50:21,614 [9] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.AddTask (TaskList.Api) with arguments (TaskList.Api.Common.TaskItem) - ModelState is Valid 
+ 
+2018-07-16 10:50:22,091 [9] INFO  App  
+ Entity Framework Core 2.1.1-rtm-30846 initialized 'TasksContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TaskList  
+ 
+2018-07-16 10:50:22,377 [9] INFO  App  
+ Saved 1 entities to in-memory store. 
+ 
+2018-07-16 10:50:22,645 [9] INFO  App  
+ Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+ 
+2018-07-16 10:50:22,716 [9] INFO  App  
+ Executed action TaskList.Api.Controllers.TaskController.AddTask (TaskList.Api) in 1464.858ms 
+ 
+2018-07-16 10:50:22,722 [9] INFO  App  
+ Request finished in 1566.9352ms 200 application/json; charset=utf-8 
+ 
+2018-07-16 10:50:25,403 [10] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/v1/Task/GetTasks/   
+ 
+2018-07-16 10:50:25,413 [10] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) with arguments ((null)) - ModelState is Valid 
+ 
+2018-07-16 10:50:27,529 [10] INFO  App  
+ Entity Framework Core 2.1.1-rtm-30846 initialized 'TasksContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TaskList  
+ 
+2018-07-16 10:50:27,562 [10] INFO  App  
+ Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+ 
+2018-07-16 10:50:27,579 [10] INFO  App  
+ Executed action TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) in 2167.1262ms 
+ 
+2018-07-16 10:50:27,583 [10] INFO  App  
+ Request finished in 2177.4934ms 200 application/json; charset=utf-8 
+ 
+2018-07-16 10:51:28,713 [10] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/v1/Task/GetTasks/   
+ 
+2018-07-16 10:51:28,716 [10] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) with arguments ((null)) - ModelState is Valid 
+ 
+2018-07-16 10:51:30,309 [10] INFO  App  
+ Entity Framework Core 2.1.1-rtm-30846 initialized 'TasksContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TaskList  
+ 
+2018-07-16 10:51:30,325 [10] INFO  App  
+ Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+ 
+2018-07-16 10:51:30,328 [10] INFO  App  
+ Executed action TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) in 1611.489ms 
+ 
+2018-07-16 10:51:30,334 [10] INFO  App  
+ Request finished in 1616.3227ms 200 application/json; charset=utf-8 
+ 
+2018-07-16 10:51:41,804 [10] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/v1/Task/GetTasks/   
+ 
+2018-07-16 10:51:41,805 [10] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) with arguments ((null)) - ModelState is Valid 
+ 
+2018-07-16 10:51:44,050 [10] INFO  App  
+ Entity Framework Core 2.1.1-rtm-30846 initialized 'TasksContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TaskList  
+ 
+2018-07-16 10:51:44,053 [10] INFO  App  
+ Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+ 
+2018-07-16 10:51:44,057 [10] INFO  App  
+ Executed action TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) in 2249.9242ms 
+ 
+2018-07-16 10:51:44,064 [10] INFO  App  
+ Request finished in 2255.5303ms 200 application/json; charset=utf-8 
+ 
+2018-07-16 10:59:26,939 [11] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/values   
+ 
+2018-07-16 10:59:27,120 [11] INFO  App  
+ Request finished in 233.0183ms 404  
+ 
+2018-07-16 10:59:51,975 [9] INFO  App  
+ Request starting HTTP/1.1 POST http://localhost:63446/api/v1/Task/AddTask/ application/json 68 
+ 
+2018-07-16 10:59:52,390 [9] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.AddTask (TaskList.Api) with arguments (TaskList.Api.Common.TaskItem) - ModelState is Valid 
+ 
+2018-07-16 10:59:52,783 [9] INFO  App  
+ Entity Framework Core 2.1.1-rtm-30846 initialized 'TasksContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TaskList  
+ 
+2018-07-16 10:59:52,954 [9] INFO  App  
+ Saved 1 entities to in-memory store. 
+ 
+2018-07-16 10:59:53,211 [9] INFO  App  
+ Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+ 
+2018-07-16 10:59:53,273 [9] INFO  App  
+ Executed action TaskList.Api.Controllers.TaskController.AddTask (TaskList.Api) in 1202.3069ms 
+ 
+2018-07-16 10:59:53,278 [9] INFO  App  
+ Request finished in 1304.5215ms 200 application/json; charset=utf-8 
+ 
+2018-07-16 10:59:56,414 [8] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/v1/Task/GetTasks/   
+ 
+2018-07-16 10:59:56,449 [8] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) with arguments ((null)) - ModelState is Valid 
+ 
+2018-07-16 10:59:58,833 [8] INFO  App  
+ Entity Framework Core 2.1.1-rtm-30846 initialized 'TasksContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TaskList  
+ 
+2018-07-16 10:59:58,864 [8] INFO  App  
+ Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+ 
+2018-07-16 10:59:58,882 [8] INFO  App  
+ Executed action TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) in 2461.4676ms 
+ 
+2018-07-16 10:59:58,888 [8] INFO  App  
+ Request finished in 2470.2533ms 200 application/json; charset=utf-8 
+ 
+2018-07-16 12:31:00,092 [8] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/v1/Task/GetTasks/   
+ 
+2018-07-16 12:31:00,096 [8] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) with arguments ((null)) - ModelState is Valid 
+ 
+2018-07-16 12:31:02,773 [8] INFO  App  
+ Entity Framework Core 2.1.1-rtm-30846 initialized 'TasksContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TaskList  
+ 
+2018-07-16 12:31:02,789 [8] INFO  App  
+ Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+ 
+2018-07-16 12:31:02,793 [8] INFO  App  
+ Executed action TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) in 2695.3931ms 
+ 
+2018-07-16 12:31:02,799 [8] INFO  App  
+ Request finished in 2705.2175ms 200 application/json; charset=utf-8 
+ 
+2018-07-16 12:32:51,756 [8] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/v1/Task/GetTasks/   
+ 
+2018-07-16 12:32:51,758 [8] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) with arguments ((null)) - ModelState is Valid 
+ 
+2018-07-16 12:32:53,597 [8] INFO  App  
+ Entity Framework Core 2.1.1-rtm-30846 initialized 'TasksContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TaskList  
+ 
+2018-07-16 12:32:53,603 [8] INFO  App  
+ Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+ 
+2018-07-16 12:32:53,605 [8] INFO  App  
+ Executed action TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) in 1846.5554ms 
+ 
+2018-07-16 12:32:53,617 [8] INFO  App  
+ Request finished in 1850.6161ms 200 application/json; charset=utf-8 
+ 
+2018-07-16 12:33:34,288 [8] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/v1/Task/GetTasks/   
+ 
+2018-07-16 12:33:34,293 [8] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) with arguments ((null)) - ModelState is Valid 
+ 
+2018-07-16 12:34:57,589 [11] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/values   
+ 
+2018-07-16 12:34:57,808 [11] INFO  App  
+ Request finished in 261.566ms 404  
+ 
+2018-07-16 12:35:15,727 [10] INFO  App  
+ Request starting HTTP/1.1 POST http://localhost:63446/api/v1/Task/AddTask/ application/json 68 
+ 
+2018-07-16 12:35:16,196 [10] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.AddTask (TaskList.Api) with arguments (TaskList.Api.Common.TaskItem) - ModelState is Valid 
+ 
+2018-07-16 12:35:16,633 [10] INFO  App  
+ Entity Framework Core 2.1.1-rtm-30846 initialized 'TasksContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TaskList  
+ 
+2018-07-16 12:35:16,809 [10] INFO  App  
+ Saved 1 entities to in-memory store. 
+ 
+2018-07-16 12:35:17,053 [10] INFO  App  
+ Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+ 
+2018-07-16 12:35:17,119 [10] INFO  App  
+ Executed action TaskList.Api.Controllers.TaskController.AddTask (TaskList.Api) in 1301.6489ms 
+ 
+2018-07-16 12:35:17,124 [10] INFO  App  
+ Request finished in 1398.4764ms 200 application/json; charset=utf-8 
+ 
+2018-07-16 12:35:21,860 [8] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/v1/Task/GetTasks/   
+ 
+2018-07-16 12:35:21,877 [8] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) with arguments ((null)) - ModelState is Valid 
+ 
+2018-07-16 12:35:25,245 [8] INFO  App  
+ Entity Framework Core 2.1.1-rtm-30846 initialized 'TasksContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TaskList  
+ 
+2018-07-16 12:35:25,283 [8] INFO  App  
+ Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+ 
+2018-07-16 12:35:25,306 [8] INFO  App  
+ Executed action TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) in 3429.4996ms 
+ 
+2018-07-16 12:35:25,340 [8] INFO  App  
+ Request finished in 3457.02ms 200 application/json; charset=utf-8 
+ 
+2018-07-16 12:35:30,198 [8] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/v1/Task/GetTasks/   
+ 
+2018-07-16 12:35:30,200 [8] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) with arguments ((null)) - ModelState is Valid 
+ 
+2018-07-16 12:35:30,203 [8] INFO  App  
+ Entity Framework Core 2.1.1-rtm-30846 initialized 'TasksContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TaskList  
+ 
+2018-07-16 12:35:30,210 [8] INFO  App  
+ Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+ 
+2018-07-16 12:35:30,212 [8] INFO  App  
+ Executed action TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) in 12.0028ms 
+ 
+2018-07-16 12:35:30,214 [8] INFO  App  
+ Request finished in 16.2674ms 200 application/json; charset=utf-8 
+ 
+2018-07-16 12:37:24,305 [8] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/values   
+ 
+2018-07-16 12:37:24,501 [8] INFO  App  
+ Request finished in 248.7607ms 404  
+ 
+2018-07-16 12:37:35,713 [8] INFO  App  
+ Request starting HTTP/1.1 POST http://localhost:63446/api/v1/Task/AddTask/ application/json 68 
+ 
+2018-07-16 12:37:36,145 [8] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.AddTask (TaskList.Api) with arguments (TaskList.Api.Common.TaskItem) - ModelState is Valid 
+ 
+2018-07-16 12:37:36,520 [8] INFO  App  
+ Entity Framework Core 2.1.1-rtm-30846 initialized 'TasksContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TaskList  
+ 
+2018-07-16 12:37:36,692 [8] INFO  App  
+ Saved 1 entities to in-memory store. 
+ 
+2018-07-16 12:37:36,959 [8] INFO  App  
+ Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+ 
+2018-07-16 12:37:37,019 [8] INFO  App  
+ Executed action TaskList.Api.Controllers.TaskController.AddTask (TaskList.Api) in 1220.1625ms 
+ 
+2018-07-16 12:37:37,024 [8] INFO  App  
+ Request finished in 1311.6366ms 200 application/json; charset=utf-8 
+ 
+2018-07-16 12:37:39,321 [9] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/v1/Task/GetTasks/   
+ 
+2018-07-16 12:37:39,329 [9] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) with arguments ((null)) - ModelState is Valid 
+ 
+2018-07-16 12:37:39,339 [9] INFO  App  
+ Entity Framework Core 2.1.1-rtm-30846 initialized 'TasksContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TaskList  
+ 
+2018-07-16 12:37:39,363 [9] INFO  App  
+ Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+ 
+2018-07-16 12:37:39,377 [9] INFO  App  
+ Executed action TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) in 48.3331ms 
+ 
+2018-07-16 12:37:39,379 [9] INFO  App  
+ Request finished in 57.0211ms 200 application/json; charset=utf-8 
+ 
+2018-07-16 12:38:48,266 [8] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/values   
+ 
+2018-07-16 12:38:48,479 [8] INFO  App  
+ Request finished in 265.5451ms 404  
+ 
+2018-07-16 12:38:54,687 [9] INFO  App  
+ Request starting HTTP/1.1 POST http://localhost:63446/api/v1/Task/AddTask/ application/json 68 
+ 
+2018-07-16 12:38:55,259 [9] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.AddTask (TaskList.Api) with arguments (TaskList.Api.Common.TaskItem) - ModelState is Valid 
+ 
+2018-07-16 12:38:55,655 [9] INFO  App  
+ Entity Framework Core 2.1.1-rtm-30846 initialized 'TasksContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TaskList  
+ 
+2018-07-16 12:38:55,832 [9] INFO  App  
+ Saved 1 entities to in-memory store. 
+ 
+2018-07-16 12:38:56,086 [9] INFO  App  
+ Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+ 
+2018-07-16 12:38:56,153 [9] INFO  App  
+ Executed action TaskList.Api.Controllers.TaskController.AddTask (TaskList.Api) in 1348.7345ms 
+ 
+2018-07-16 12:38:56,162 [9] INFO  App  
+ Request finished in 1480.2151ms 200 application/json; charset=utf-8 
+ 
+2018-07-16 13:49:29,180 [8] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/values   
+ 
+2018-07-16 13:49:29,495 [8] INFO  App  
+ Request finished in 380.8058ms 404  
+ 
+2018-07-16 13:49:56,025 [8] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/v1/Task/GetTasks/   
+ 
+2018-07-16 13:49:56,283 [8] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) with arguments ((null)) - ModelState is Valid 
+ 
+2018-07-16 13:49:56,697 [8] INFO  App  
+ Entity Framework Core 2.1.1-rtm-30846 initialized 'TasksContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TaskList  
+ 
+2018-07-16 13:49:56,934 [8] INFO  App  
+ Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+ 
+2018-07-16 13:49:57,090 [8] INFO  App  
+ Executed action TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) in 1003.8453ms 
+ 
+2018-07-16 13:49:57,095 [8] INFO  App  
+ Request finished in 1069.0461ms 200 application/json; charset=utf-8 
+ 
+2018-07-16 13:50:48,345 [9] INFO  App  
+ Request starting HTTP/1.1 POST http://localhost:63446/api/v1/Task/AddTask/ application/json 99 
+ 
+2018-07-16 13:50:48,455 [9] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.AddTask (TaskList.Api) with arguments (TaskList.Api.Common.TaskItem) - ModelState is Valid 
+ 
+2018-07-16 13:50:48,471 [9] INFO  App  
+ Entity Framework Core 2.1.1-rtm-30846 initialized 'TasksContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TaskList  
+ 
+2018-07-16 13:50:48,654 [9] INFO  App  
+ Saved 1 entities to in-memory store. 
+ 
+2018-07-16 13:50:48,692 [9] INFO  App  
+ Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+ 
+2018-07-16 13:50:48,721 [9] INFO  App  
+ Executed action TaskList.Api.Controllers.TaskController.AddTask (TaskList.Api) in 351.9898ms 
+ 
+2018-07-16 13:50:48,727 [9] INFO  App  
+ Request finished in 379.4044ms 200 application/json; charset=utf-8 
+ 
+2018-07-16 13:51:07,921 [8] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/v1/Task/GetTasks/   
+ 
+2018-07-16 13:51:07,924 [8] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) with arguments ((null)) - ModelState is Valid 
+ 
+2018-07-16 13:51:07,926 [8] INFO  App  
+ Entity Framework Core 2.1.1-rtm-30846 initialized 'TasksContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TaskList  
+ 
+2018-07-16 13:51:07,953 [8] INFO  App  
+ Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+ 
+2018-07-16 13:51:07,956 [8] INFO  App  
+ Executed action TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) in 31.6533ms 
+ 
+2018-07-16 13:51:07,958 [8] INFO  App  
+ Request finished in 36.5374ms 200 application/json; charset=utf-8 
+ 
+2018-07-16 13:51:27,477 [8] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/v1/Task/GetTasks/   
+ 
+2018-07-16 13:51:27,479 [8] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) with arguments ((null)) - ModelState is Valid 
+ 
+2018-07-16 13:51:27,482 [8] INFO  App  
+ Entity Framework Core 2.1.1-rtm-30846 initialized 'TasksContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TaskList  
+ 
+2018-07-16 13:51:27,486 [8] INFO  App  
+ Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+ 
+2018-07-16 13:51:27,491 [8] INFO  App  
+ Executed action TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) in 9.1909ms 
+ 
+2018-07-16 13:51:27,496 [8] INFO  App  
+ Request finished in 15.9446ms 200 application/json; charset=utf-8 
+ 
+2018-07-16 14:11:55,866 [8] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/values   
+ 
+2018-07-16 14:11:56,166 [8] INFO  App  
+ Request finished in 361.4417ms 404  
+ 
+2018-07-16 14:12:04,852 [8] INFO  App  
+ Request starting HTTP/1.1 POST http://localhost:63446/api/v1/Task/AddTask/ application/json 99 
+ 
+2018-07-16 14:12:05,312 [8] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.AddTask (TaskList.Api) with arguments (TaskList.Api.Common.TaskItem) - ModelState is Valid 
+ 
+2018-07-16 14:12:05,882 [8] INFO  App  
+ Entity Framework Core 2.1.1-rtm-30846 initialized 'TasksContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TaskList  
+ 
+2018-07-16 14:12:06,187 [8] INFO  App  
+ Saved 1 entities to in-memory store. 
+ 
+2018-07-16 14:12:06,579 [8] INFO  App  
+ Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+ 
+2018-07-16 14:12:06,654 [8] INFO  App  
+ Executed action TaskList.Api.Controllers.TaskController.AddTask (TaskList.Api) in 1706.3674ms 
+ 
+2018-07-16 14:12:06,665 [8] INFO  App  
+ Request finished in 1809.0222ms 200 application/json; charset=utf-8 
+ 
+2018-07-16 14:12:30,967 [9] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/v1/Task/GetTask/dff26daa-7e1b-4036-b507-a89dc40c0165   
+ 
+2018-07-16 14:12:30,999 [9] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.GetTaskItem (TaskList.Api) with arguments (dff26daa-7e1b-4036-b507-a89dc40c0165, ) - ModelState is Valid 
+ 
+2018-07-16 14:12:31,040 [9] INFO  App  
+ Entity Framework Core 2.1.1-rtm-30846 initialized 'TasksContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TaskList  
+ 
+2018-07-16 14:12:31,073 [9] INFO  App  
+ Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+ 
+2018-07-16 14:12:31,076 [9] INFO  App  
+ Executed action TaskList.Api.Controllers.TaskController.GetTaskItem (TaskList.Api) in 88.1756ms 
+ 
+2018-07-16 14:12:31,087 [9] INFO  App  
+ Request finished in 112.199ms 200 application/json; charset=utf-8 
+ 
+2018-07-16 14:12:35,418 [9] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/v1/Task/GetTasks/   
+ 
+2018-07-16 14:12:35,429 [9] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) with arguments ((null)) - ModelState is Valid 
+ 
+2018-07-16 14:12:35,439 [9] INFO  App  
+ Entity Framework Core 2.1.1-rtm-30846 initialized 'TasksContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TaskList  
+ 
+2018-07-16 14:12:35,452 [9] INFO  App  
+ Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+ 
+2018-07-16 14:12:35,470 [9] INFO  App  
+ Executed action TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) in 41.3764ms 
+ 
+2018-07-16 14:12:35,475 [9] INFO  App  
+ Request finished in 54.4976ms 200 application/json; charset=utf-8 
+ 
+2018-07-16 14:30:29,974 [11] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/values   
+ 
+2018-07-16 14:30:30,182 [11] INFO  App  
+ Request finished in 257.324ms 404  
+ 
+2018-07-16 14:31:19,884 [8] INFO  App  
+ Request starting HTTP/1.1 POST http://localhost:63446/api/v1/Task/AddTask/ application/json 99 
+ 
+2018-07-16 14:31:20,323 [8] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.AddTask (TaskList.Api) with arguments (TaskList.Api.Common.TaskItem) - ModelState is Valid 
+ 
+2018-07-16 14:31:20,755 [8] INFO  App  
+ Entity Framework Core 2.1.1-rtm-30846 initialized 'TasksContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TaskList  
+ 
+2018-07-16 14:31:20,940 [8] INFO  App  
+ Saved 1 entities to in-memory store. 
+ 
+2018-07-16 14:31:21,193 [8] INFO  App  
+ Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+ 
+2018-07-16 14:31:21,253 [8] INFO  App  
+ Executed action TaskList.Api.Controllers.TaskController.AddTask (TaskList.Api) in 1277.3912ms 
+ 
+2018-07-16 14:31:21,259 [8] INFO  App  
+ Request finished in 1375.1529ms 200 application/json; charset=utf-8 
+ 
+2018-07-16 14:32:56,578 [10] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/values   
+ 
+2018-07-16 14:32:56,850 [10] INFO  App  
+ Request finished in 345.2817ms 404  
+ 
+2018-07-16 14:34:33,433 [9] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/values   
+ 
+2018-07-16 14:34:34,328 [9] INFO  App  
+ Request finished in 1009.2734ms 404  
+ 
+2018-07-16 14:34:46,398 [9] INFO  App  
+ Request starting HTTP/1.1 POST http://localhost:63446/api/v1/Task/AddTask/ application/json 99 
+ 
+2018-07-16 14:34:46,884 [9] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.AddTask (TaskList.Api) with arguments (TaskList.Api.Common.TaskItem) - ModelState is Valid 
+ 
+2018-07-16 14:34:47,394 [9] INFO  App  
+ Entity Framework Core 2.1.1-rtm-30846 initialized 'TasksContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TaskList  
+ 
+2018-07-16 14:34:47,624 [9] INFO  App  
+ Saved 1 entities to in-memory store. 
+ 
+2018-07-16 14:34:47,935 [9] INFO  App  
+ Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+ 
+2018-07-16 14:34:48,010 [9] INFO  App  
+ Executed action TaskList.Api.Controllers.TaskController.AddTask (TaskList.Api) in 1517.0919ms 
+ 
+2018-07-16 14:34:48,017 [9] INFO  App  
+ Request finished in 1618.8864ms 200 application/json; charset=utf-8 
+ 
+2018-07-16 14:34:51,536 [8] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/v1/Task/GetTasks/   
+ 
+2018-07-16 14:34:51,544 [8] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) with arguments ((null)) - ModelState is Valid 
+ 
+2018-07-16 14:34:51,554 [8] INFO  App  
+ Entity Framework Core 2.1.1-rtm-30846 initialized 'TasksContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TaskList  
+ 
+2018-07-16 14:34:51,579 [8] INFO  App  
+ Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+ 
+2018-07-16 14:34:51,592 [8] INFO  App  
+ Executed action TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) in 49.6053ms 
+ 
+2018-07-16 14:34:51,594 [8] INFO  App  
+ Request finished in 57.2804ms 200 application/json; charset=utf-8 
+ 
+2018-07-16 14:39:09,318 [8] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/values   
+ 
+2018-07-16 14:39:09,593 [8] INFO  App  
+ Request finished in 340.7812ms 404  
+ 
+2018-07-16 14:39:21,921 [9] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/v1/Task/GetTasks/   
+ 
+2018-07-16 14:39:22,243 [9] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) with arguments ((null)) - ModelState is Valid 
+ 
+2018-07-16 14:39:22,769 [9] INFO  App  
+ Entity Framework Core 2.1.1-rtm-30846 initialized 'TasksContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TaskList  
+ 
+2018-07-16 14:39:23,081 [9] INFO  App  
+ Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+ 
+2018-07-16 14:39:23,252 [9] INFO  App  
+ Executed action TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) in 1248.7865ms 
+ 
+2018-07-16 14:39:23,257 [9] INFO  App  
+ Request finished in 1335.18ms 200 application/json; charset=utf-8 
+ 
+2018-07-16 14:39:38,694 [8] INFO  App  
+ Request starting HTTP/1.1 POST http://localhost:63446/api/v1/Task/AddTask/ application/json 99 
+ 
+2018-07-16 14:39:38,784 [8] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.AddTask (TaskList.Api) with arguments (TaskList.Api.Common.TaskItem) - ModelState is Valid 
+ 
+2018-07-16 14:39:38,798 [8] INFO  App  
+ Entity Framework Core 2.1.1-rtm-30846 initialized 'TasksContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TaskList  
+ 
+2018-07-16 14:39:38,953 [8] INFO  App  
+ Saved 1 entities to in-memory store. 
+ 
+2018-07-16 14:39:38,986 [8] INFO  App  
+ Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+ 
+2018-07-16 14:39:39,009 [8] INFO  App  
+ Executed action TaskList.Api.Controllers.TaskController.AddTask (TaskList.Api) in 294.8218ms 
+ 
+2018-07-16 14:39:39,012 [8] INFO  App  
+ Request finished in 318.9211ms 200 application/json; charset=utf-8 
+ 
+2018-07-16 14:41:12,828 [9] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/v1/Task/GetTasks/   
+ 
+2018-07-16 14:41:12,830 [9] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) with arguments ((null)) - ModelState is Valid 
+ 
+2018-07-16 14:41:12,832 [9] INFO  App  
+ Entity Framework Core 2.1.1-rtm-30846 initialized 'TasksContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TaskList  
+ 
+2018-07-16 14:41:12,853 [9] INFO  App  
+ Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+ 
+2018-07-16 14:41:12,855 [9] INFO  App  
+ Executed action TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) in 24.914ms 
+ 
+2018-07-16 14:41:12,857 [9] INFO  App  
+ Request finished in 28.9198ms 200 application/json; charset=utf-8 
+ 
+2018-07-16 14:42:41,274 [9] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/v1/Task/GetTasks/   
+ 
+2018-07-16 14:42:41,276 [9] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) with arguments ((null)) - ModelState is Valid 
+ 
+2018-07-16 14:42:41,279 [9] INFO  App  
+ Entity Framework Core 2.1.1-rtm-30846 initialized 'TasksContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TaskList  
+ 
+2018-07-16 14:42:41,286 [9] INFO  App  
+ Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+ 
+2018-07-16 14:42:41,289 [9] INFO  App  
+ Executed action TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) in 11.7029ms 
+ 
+2018-07-16 14:42:41,291 [9] INFO  App  
+ Request finished in 17.1265ms 200 application/json; charset=utf-8 
+ 
+2018-07-16 14:51:48,956 [8] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/values   
+ 
+2018-07-16 14:51:49,159 [8] INFO  App  
+ Request finished in 255.3162ms 404  
+ 
+2018-07-16 14:51:57,021 [10] INFO  App  
+ Request starting HTTP/1.1 POST http://localhost:63446/api/v1/Task/AddTask/ application/json 99 
+ 
+2018-07-16 14:51:57,467 [10] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.AddTask (TaskList.Api) with arguments (TaskList.Api.Common.TaskItem) - ModelState is Valid 
+ 
+2018-07-16 14:51:57,931 [10] INFO  App  
+ Entity Framework Core 2.1.1-rtm-30846 initialized 'TasksContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TaskList  
+ 
+2018-07-16 14:51:58,112 [10] INFO  App  
+ Saved 1 entities to in-memory store. 
+ 
+2018-07-16 14:51:58,363 [10] INFO  App  
+ Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+ 
+2018-07-16 14:51:58,424 [10] INFO  App  
+ Executed action TaskList.Api.Controllers.TaskController.AddTask (TaskList.Api) in 1312.0099ms 
+ 
+2018-07-16 14:51:58,429 [10] INFO  App  
+ Request finished in 1408.3776ms 200 application/json; charset=utf-8 
+ 
+2018-07-16 14:53:46,047 [10] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/values   
+ 
+2018-07-16 14:53:46,236 [10] INFO  App  
+ Request finished in 249.1664ms 404  
+ 
+2018-07-16 14:53:56,735 [9] INFO  App  
+ Request starting HTTP/1.1 POST http://localhost:63446/api/v1/Task/AddTask/ application/json 99 
+ 
+2018-07-16 14:53:57,212 [9] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.AddTask (TaskList.Api) with arguments (TaskList.Api.Common.TaskItem) - ModelState is Valid 
+ 
+2018-07-16 14:53:57,831 [9] INFO  App  
+ Entity Framework Core 2.1.1-rtm-30846 initialized 'TasksContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TaskList  
+ 
+2018-07-16 14:53:58,086 [9] INFO  App  
+ Saved 1 entities to in-memory store. 
+ 
+2018-07-16 14:53:58,429 [9] INFO  App  
+ Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+ 
+2018-07-16 14:53:58,505 [9] INFO  App  
+ Executed action TaskList.Api.Controllers.TaskController.AddTask (TaskList.Api) in 1674.2603ms 
+ 
+2018-07-16 14:53:58,517 [9] INFO  App  
+ Request finished in 1776.3379ms 200 application/json; charset=utf-8 
+ 
+2018-07-16 14:56:57,259 [8] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/v1/Task/GetTasks/   
+ 
+2018-07-16 14:56:57,275 [8] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) with arguments ((null)) - ModelState is Valid 
+ 
+2018-07-16 14:56:57,292 [8] INFO  App  
+ Entity Framework Core 2.1.1-rtm-30846 initialized 'TasksContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TaskList  
+ 
+2018-07-16 14:56:57,328 [8] INFO  App  
+ Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+ 
+2018-07-16 14:56:57,347 [8] INFO  App  
+ Executed action TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) in 76.1239ms 
+ 
+2018-07-16 14:56:57,358 [8] INFO  App  
+ Request finished in 91.7789ms 200 application/json; charset=utf-8 
+ 
+2018-07-16 15:01:03,112 [11] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/values   
+ 
+2018-07-16 15:01:03,354 [11] INFO  App  
+ Request finished in 319.8208ms 404  
+ 
+2018-07-16 15:01:15,067 [8] INFO  App  
+ Request starting HTTP/1.1 POST http://localhost:63446/api/v1/Task/AddTask/ application/json 99 
+ 
+2018-07-16 15:01:15,509 [8] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.AddTask (TaskList.Api) with arguments (TaskList.Api.Common.TaskItem) - ModelState is Valid 
+ 
+2018-07-16 15:01:15,896 [8] INFO  App  
+ Entity Framework Core 2.1.1-rtm-30846 initialized 'TasksContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TaskList  
+ 
+2018-07-16 15:01:16,068 [8] INFO  App  
+ Saved 1 entities to in-memory store. 
+ 
+2018-07-16 15:01:16,314 [8] INFO  App  
+ Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+ 
+2018-07-16 15:01:16,377 [8] INFO  App  
+ Executed action TaskList.Api.Controllers.TaskController.AddTask (TaskList.Api) in 1215.4532ms 
+ 
+2018-07-16 15:01:16,382 [8] INFO  App  
+ Request finished in 1315.3712ms 200 application/json; charset=utf-8 
+ 
+2018-07-16 15:01:58,802 [9] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/v1/Task/GetTasks/   
+ 
+2018-07-16 15:01:58,817 [9] INFO  App  
+ Executing action method TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) with arguments ((null)) - ModelState is Valid 
+ 
+2018-07-16 15:01:58,832 [9] INFO  App  
+ Entity Framework Core 2.1.1-rtm-30846 initialized 'TasksContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=TaskList  
+ 
+2018-07-16 15:01:58,860 [9] INFO  App  
+ Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+ 
+2018-07-16 15:01:58,883 [9] INFO  App  
+ Executed action TaskList.Api.Controllers.TaskController.GetAllTasks (TaskList.Api) in 66.7388ms 
+ 
+2018-07-16 15:01:58,889 [9] INFO  App  
+ Request finished in 83.1901ms 200 application/json; charset=utf-8 
+ 

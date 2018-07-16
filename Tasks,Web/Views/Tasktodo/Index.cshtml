@@ -1,0 +1,50 @@
+﻿@{
+    ViewData["Title"] = "Index";
+}
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#tbltasks').DataTable({
+            "processing": true,
+            "searching": false,
+            "paging": true,
+            "ordering": false,
+            "ajax": {
+                url: '@Url.Action("GetTasks", "TaskTodo")',
+                type: 'POST',
+                contentType: "application/json",
+                data: function (d) {
+                    return JSON.stringify(d);
+                }
+            },
+            "columns": [
+                { "data": "TaskName" },
+                { "data": "TaskDescription" },
+                { "data": "IsComplete" },
+                { "data": "Owner" },
+                { "data": "Create_At" }
+            ]
+        });
+    });
+</script>
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        List of tasks
+    </div>
+    <div class="panel-body">
+        <table class="table table-bordered" id="tbltasks">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Is Complete</th>
+                    <th>Owner</th>
+                    <th>Created</th>
+                </tr>
+             </thead>
+        </table>
+    </div>
+</div>

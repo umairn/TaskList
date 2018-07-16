@@ -15,7 +15,11 @@ namespace TaskList.Api.Common
         /// 
         /// </summary>
         public string TaskName { get; set; }
-           /// <summary>
+        /// <summary>
+        /// 
+        /// </summary>
+        public string TaskDescription { get; set; }
+        /// <summary>
         /// E.g. created by
         /// </summary>
         public string Owner { get; set; }

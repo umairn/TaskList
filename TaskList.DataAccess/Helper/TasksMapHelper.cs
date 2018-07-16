@@ -25,6 +25,7 @@ namespace TaskList.Api.DataAccess
             {
                 TaskId = task.TaskId,
                 TaskName = task.TaskName,
+                TaskDescription=task.TaskDescription,
                 IsComplete = task.IsComplete,
                 Create_At = task.Created_at,
                 Owner = task.Owner
@@ -47,6 +48,7 @@ namespace TaskList.Api.DataAccess
                 {
                     TaskId = task.TaskId,
                     TaskName = task.TaskName,
+                    TaskDescription=task.TaskDescription,
                     IsComplete = task.IsComplete,
                     Create_At = task.Created_at,
                     Owner = task.Owner
@@ -62,6 +64,7 @@ namespace TaskList.Api.DataAccess
         {
             TasksDB task = new TasksDB();
             task.TaskName = taskObj.TaskName;
+            task.TaskDescription = taskObj.TaskDescription;
             task.Owner = taskObj.Owner;
             task.IsComplete = taskObj.IsComplete;
             task.Created_at = DateTime.Now;
@@ -75,6 +78,7 @@ namespace TaskList.Api.DataAccess
         {
             TasksDB task = new TasksDB();
             task.TaskName = taskObjNew.TaskName;
+            task.TaskDescription = taskObjNew.TaskDescription;
             task.Owner = taskObjNew.Owner;
             task.IsComplete = taskObjNew.IsComplete;
             task.Created_at = taskDBOriginal.Created_at;

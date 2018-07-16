@@ -10,6 +10,10 @@ namespace TaskList.Api.Common
         /// <summary>
         /// 
         /// </summary>
+        public string TaskDescription { get; set; }
+        /// <summary>
+        /// 
+        /// </summary>
         public bool IsComplete { get; set; }
         /// <summary>
         /// E.g. Supplier Code

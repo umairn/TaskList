@@ -1,9 +1,9 @@
 C:\Users\naeemu\source\repos\TaskList\TaskList.Api.Common\bin\Debug\netcoreapp2.0\TaskList.Api.Common.deps.json
 C:\Users\naeemu\source\repos\TaskList\TaskList.Api.Common\bin\Debug\netcoreapp2.0\TaskList.Api.Common.dll
 C:\Users\naeemu\source\repos\TaskList\TaskList.Api.Common\bin\Debug\netcoreapp2.0\TaskList.Api.Common.pdb
-C:\Users\naeemu\source\repos\TaskList\TaskList.Api.Common\obj\Debug\netcoreapp2.0\TaskList.Api.Common.csprojResolveAssemblyReference.cache
 C:\Users\naeemu\source\repos\TaskList\TaskList.Api.Common\obj\Debug\netcoreapp2.0\TaskList.Api.Common.csproj.CoreCompileInputs.cache
 C:\Users\naeemu\source\repos\TaskList\TaskList.Api.Common\obj\Debug\netcoreapp2.0\TaskList.Api.Common.AssemblyInfoInputs.cache
 C:\Users\naeemu\source\repos\TaskList\TaskList.Api.Common\obj\Debug\netcoreapp2.0\TaskList.Api.Common.AssemblyInfo.cs
 C:\Users\naeemu\source\repos\TaskList\TaskList.Api.Common\obj\Debug\netcoreapp2.0\TaskList.Api.Common.dll
 C:\Users\naeemu\source\repos\TaskList\TaskList.Api.Common\obj\Debug\netcoreapp2.0\TaskList.Api.Common.pdb
+C:\Users\naeemu\source\repos\TaskList\TaskList.Api.Common\obj\Debug\netcoreapp2.0\TaskList.Api.Common.csprojResolveAssemblyReference.cache

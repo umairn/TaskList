@@ -1,0 +1,18 @@
+2018-07-11 14:38:50,057 [8] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/values   
+ 
+2018-07-11 14:38:50,582 [8] INFO  App  
+ Request finished in 667.8233ms 404  
+ 
+2018-07-11 16:51:55,137 [8] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/   
+ 
+2018-07-11 16:51:55,269 [8] INFO  App  
+ Request finished in 179.9131ms 404  
+ 
+2018-07-11 16:51:55,280 [9] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/   
+ 
+2018-07-11 16:51:55,280 [9] INFO  App  
+ Request finished in 0.5472ms 404  
+ 

@@ -1,0 +1,132 @@
+2018-07-15 15:51:21,394 [8] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/values   
+ 
+2018-07-15 15:51:21,580 [8] INFO  App  
+ Request finished in 237.4847ms 404  
+ 
+2018-07-15 16:03:31,264 [11] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/values   
+ 
+2018-07-15 16:03:31,505 [11] INFO  App  
+ Request finished in 336.6554ms 404  
+ 
+2018-07-15 16:09:07,598 [11] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/values   
+ 
+2018-07-15 16:09:07,762 [11] INFO  App  
+ Request finished in 211.2218ms 404  
+ 
+2018-07-15 16:10:23,386 [10] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/values   
+ 
+2018-07-15 16:10:23,584 [10] INFO  App  
+ Request finished in 237.9491ms 404  
+ 
+2018-07-15 22:55:19,967 [8] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/values   
+ 
+2018-07-15 22:55:20,301 [8] INFO  App  
+ Request finished in 404.7365ms 404  
+ 
+2018-07-15 22:58:36,713 [8] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/values   
+ 
+2018-07-15 22:58:36,900 [8] INFO  App  
+ Request finished in 235.797ms 404  
+ 
+2018-07-15 22:59:13,530 [11] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/values   
+ 
+2018-07-15 22:59:13,701 [11] INFO  App  
+ Request finished in 219.6649ms 404  
+ 
+2018-07-15 23:00:45,809 [11] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/values   
+ 
+2018-07-15 23:00:46,142 [11] INFO  App  
+ Request finished in 423.1759ms 404  
+ 
+2018-07-15 23:07:11,419 [9] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/values   
+ 
+2018-07-15 23:07:11,675 [9] INFO  App  
+ Request finished in 318.5223ms 404  
+ 
+2018-07-15 23:11:50,550 [8] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/values   
+ 
+2018-07-15 23:11:50,777 [8] INFO  App  
+ Request finished in 303.6735ms 404  
+ 
+2018-07-15 23:13:29,310 [10] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/values   
+ 
+2018-07-15 23:13:29,587 [10] INFO  App  
+ Request finished in 315.9057ms 404  
+ 
+2018-07-15 23:16:55,648 [8] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/values   
+ 
+2018-07-15 23:16:55,830 [8] INFO  App  
+ Request finished in 225.8774ms 404  
+ 
+2018-07-15 23:22:32,610 [11] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/values   
+ 
+2018-07-15 23:22:32,844 [11] INFO  App  
+ Request finished in 312.9178ms 404  
+ 
+2018-07-15 23:25:07,731 [11] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/values   
+ 
+2018-07-15 23:25:07,982 [11] INFO  App  
+ Request finished in 386.3821ms 404  
+ 
+2018-07-15 23:28:06,235 [11] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/values   
+ 
+2018-07-15 23:28:06,473 [11] INFO  App  
+ Request finished in 288.4329ms 404  
+ 
+2018-07-15 23:40:01,272 [8] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/values   
+ 
+2018-07-15 23:40:01,517 [8] INFO  App  
+ Request finished in 314.9662ms 404  
+ 
+2018-07-15 23:41:46,722 [8] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/values   
+ 
+2018-07-15 23:41:46,944 [8] INFO  App  
+ Request finished in 269.5992ms 404  
+ 
+2018-07-15 23:43:15,826 [11] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/values   
+ 
+2018-07-15 23:43:16,041 [11] INFO  App  
+ Request finished in 274.1104ms 404  
+ 
+2018-07-15 23:46:05,375 [11] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/values   
+ 
+2018-07-15 23:46:05,563 [11] INFO  App  
+ Request finished in 241.8831ms 404  
+ 
+2018-07-15 23:49:40,849 [8] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/values   
+ 
+2018-07-15 23:49:41,161 [8] INFO  App  
+ Request finished in 354.7611ms 404  
+ 
+2018-07-15 23:52:21,338 [8] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/values   
+ 
+2018-07-15 23:52:21,532 [8] INFO  App  
+ Request finished in 237.6727ms 404  
+ 
+2018-07-15 23:56:51,616 [8] INFO  App  
+ Request starting HTTP/1.1 GET http://localhost:63446/api/values   
+ 
+2018-07-15 23:56:51,805 [8] INFO  App  
+ Request finished in 227.5319ms 404  
+ 

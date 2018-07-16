@@ -25,6 +25,14 @@ namespace TaskList.DataAccess
             /// <summary>
             /// 
             /// </summary>
+            [StringLength(200)]
+            [Column(Order = 2)]
+            public string TaskDescription { get; set; }
+            /// <summary>
+            /// 
+            /// </summary>
+            /// 
+            [Column(Order = 3)]
             public bool IsComplete { get; set; }
             /// <summary>
             /// 
